@@ -104,7 +104,7 @@ handler.help = ['pat <texto>']
 handler.tags = ['sticker']
 handler.command = ['pat', 'patricio']
 handler.group = false
-handler.register = true
-handler.limit = true
+handler.register = false
+handler.limit = false
 
 export default handler
