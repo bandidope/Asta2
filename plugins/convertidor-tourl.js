@@ -149,7 +149,7 @@ handler.before = async (m, { conn }) => {
 
 handler.help = ['tourl', 'upload']
 handler.tags = ['transformador']
-handler.register = true
+handler.register = false
 handler.command = ['tourl','infourl','dlfile','qrurl', 'upload']
 handler.limit = true
 
