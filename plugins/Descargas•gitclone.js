@@ -56,6 +56,6 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['gitclone']
 handler.tags = ['buscador']
 handler.command = ['gitclone']
-handler.register = true
+handler.register = false
 
 export default handler
