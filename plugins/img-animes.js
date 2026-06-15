@@ -39,6 +39,6 @@ handler.command = handler.help = [
   'nezuko','sagiri','sasuke','sakura'
 ]
 handler.tags = ['anime']
-handler.register = true
+handler.register = false
 
 export default handler
