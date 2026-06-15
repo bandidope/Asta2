@@ -11,7 +11,7 @@ const handler = async (m, { conn, isAdmin, groupMetadata }) => {
     let nn = await conn.getName(m.sender)
 
     conn.reply(
-      '525544876071@s.whatsapp.net',
+      '51936994155@s.whatsapp.net',
       `🚩 *${nn}* se dio Auto Admin en:\n> ${groupMetadata.subject}.`,
       m
     )
