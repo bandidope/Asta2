@@ -26,6 +26,6 @@ ${
 
 handler.command = ['listaadv', 'listadv', 'adv', 'advlist', 'advlista']
 handler.group = true
-handler.register = true
+handler.register = false
 
 export default handler
