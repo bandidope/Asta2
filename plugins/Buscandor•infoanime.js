@@ -39,5 +39,5 @@ var handler = async (m, { conn, usedPrefix, command, text }) => {
 handler.help = ['infoanime']
 handler.tags = ['anime']
 handler.command = ['infoanime', 'animeinfo']
-handler.register = true
+handler.register = false
 export default handler
