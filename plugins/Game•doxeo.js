@@ -74,6 +74,6 @@ handler.tags = ['fun']
 handler.command = ['doxear', 'hack', 'trace', 'scan']
 
 handler.group = true
-handler.register = true
+handler.register = false
 
 export default handler
