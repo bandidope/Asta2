@@ -55,7 +55,7 @@ handler.command = [
   'videoxxxlesbi','videolesbixxx','pornolesbivid',
   'pornolesbianavid','pornolesbiv','pornolesbianav','pornolesv'
 ];
-handler.register = true;
+handler.register = false;
 handler.tags = ['nsfw'];
 export default handler;
 
