@@ -141,6 +141,6 @@ handler.before = async (m, { conn }) => {
 handler.help = ['pinterest <búsqueda>', 'pin <búsqueda>']
 handler.tags = ['search']
 handler.command = ['pinterest', 'pin','pindl', 'pinmore']
-handler.limit = true
+handler.limit = false
 
 export default handler
