@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 const handler = async (m, { conn, text, usedPrefix, command }) => {
   if (!text) return conn.reply(
     m.chat, 
-    `🚩 *Ingrese el nombre de un repositorio de github*\n\nEjemplo, ${usedPrefix + command} black-clover-MD`, 
+    `🚩 *Ingrese el nombre de un repositorio de github*\n\nEjemplo, ${usedPrefix + command} bot`, 
     m, 
     global.rcanal
   )
@@ -63,7 +63,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['githubsearch']
 handler.tags = ['buscador']
 handler.command = ['githubsearch']
-handler.register = true
+handler.register = false
 
 export default handler
 
