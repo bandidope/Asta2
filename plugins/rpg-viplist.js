@@ -106,7 +106,7 @@ let handler = async (m, { conn }) => {
 handler.help = ['listavip']
 handler.tags = ['premium']
 handler.command = ['listavip', 'viplist', 'usuariosvip']
-handler.register = true
+handler.register = false
 handler.rowner = true
 
 export default handler
