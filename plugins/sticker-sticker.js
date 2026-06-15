@@ -117,8 +117,8 @@ handler.help = ['sticker', 'stiker', 's'].map(v => v + ' <imagen|video|url|texto
 handler.tags = ['sticker']
 handler.command = ['s', 'sticker', 'stiker']
 handler.group = false
-handler.register = true
-handler.limit = true
+handler.register = false
+handler.limit = false
 
 export default handler
 
