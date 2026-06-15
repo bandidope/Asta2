@@ -159,6 +159,6 @@ ${tituloEspecial}
 handler.help = ['menurpg', 'rpgmenu', 'menur']
 handler.tags = ['rpg']
 handler.command = ['menurpg', 'rpgmenu', 'menur', 'rpg']
-handler.register = true
+handler.register = false
 
 export default handler
