@@ -62,6 +62,6 @@ let handler = async (m, { args, conn }) => {
 handler.command = ['instagram', 'ig']
 handler.tags = ['descargas']
 handler.help = ['instagram', 'ig']
-handler.register = true
+handler.register = false
 
 export default handler
