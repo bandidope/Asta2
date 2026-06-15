@@ -63,7 +63,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['comprarpremium <cantidad> <unidad>']
 handler.tags = ['premium']
 handler.command = ['comprarpremium', 'premium', 'vip']
-handler.register = true
+handler.register = false
 
 handler.before = async (m) => {
   const owners = (global.owner || [])
