@@ -52,7 +52,7 @@ let handler = async (m, { conn }) => {
 handler.help = ['cajamisteriosa']
 handler.tags = ['juegos', 'economia', 'rpg']
 handler.command = ['cajamisteriosa', 'box', 'suerte']
-handler.register = true
+handler.register = false
 handler.fail = null
 
 export default handler
