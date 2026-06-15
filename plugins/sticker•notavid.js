@@ -39,8 +39,8 @@ let handler = async (m, { conn, text }) => {
     }
 }
 
-handler.help = ['notavid <texto>']
+handler.help = ['bratv <texto>']
 handler.tags = ['sticker']
-handler.command = ['nvid', 'notavid']
+handler.command = ['bratvideo', 'bratv']
 
 export default handler
