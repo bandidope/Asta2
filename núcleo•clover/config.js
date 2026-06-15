@@ -28,10 +28,10 @@ global.core = {
 global.botNumber = ''
 global.owner = [
   ['51936994155', '🜲 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 👻', true],
-  ['5217971289909'],
-  ['5216641784469', 'BrayanOFC', true],
-  ['5217971282613', '', false],
-  ['573244278232', 'Brayan uchiha 🐦‍⬛', true]
+  ['51936994155'],
+  ['51936994155', 'BrayanOFC', true],
+  ['51936994155', '', false],
+  ['51936994155', 'Brayan uchiha 🐦‍⬛', true]
 ]
 global.mods = ['51936994155']
 global.suittag = ['51936994155']
