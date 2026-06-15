@@ -19,6 +19,6 @@ handler.help = ['meme']
 handler.tags = ['fun']
 handler.command = ['meme', 'memes']
 handler.cookies = 1
-handler.register = true
+handler.register = false
 
 export default handler
