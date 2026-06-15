@@ -28,6 +28,6 @@ const handler = async (m, { conn, command, text }) => {
 
 handler.command = ['chupalo', 'chupa', 'aplauso', 'negro', 'marron', 'suicidar', 'suicide']
 handler.group = true
-handler.register = true
+handler.register = false
 
 export default handler;
