@@ -68,7 +68,7 @@ var handler = async (m, { conn }) => {
 handler.help = ['ping']
 handler.tags = ['bot']
 handler.command = ['ping', 'p']
-handler.register = true
+handler.register = false
 
 export default handler
 
