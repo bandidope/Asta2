@@ -66,9 +66,9 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   )
 }
 
-handler.help = ['n', 'nota'].map(v => v + ' <texto>')
+handler.help = ['brat'].map(v => v + ' <texto>')
 handler.tags = ['sticker']
-handler.command = ['n', 'nota', 'Nota']
+handler.command = ['brat']
 handler.group = false
 handler.register = false
 handler.limit = true
