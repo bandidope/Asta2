@@ -237,7 +237,7 @@ async function mostrarApoyo(m, conn, usedPrefix) {
 handler.help = ['desahogo', 'historial', 'motivacion', 'respirar', 'apoyo']
 handler.tags = ['rpg', 'utilidad']
 handler.command = ['desahogo', 'historial', 'motivacion', 'respirar', 'apoyo']
-handler.register = true
+handler.register = false
 
 export default handler
 
