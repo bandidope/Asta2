@@ -52,7 +52,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['xnxxsearch <query>'];
 handler.tags = ['buscador'];
 handler.command = ['xnxxsearch', 'xnxxs'];
-handler.register = true;
+handler.register = false;
 handler.group = false;
 
 export default handler;
