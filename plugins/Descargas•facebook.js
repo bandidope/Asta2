@@ -61,6 +61,6 @@ handler.help = ['facebook', 'fb']
 handler.tags = ['descargas']
 handler.command = ['facebook', 'fb']
 handler.cookies = 1
-handler.register = true
+handler.register = false
 
 export default handler
