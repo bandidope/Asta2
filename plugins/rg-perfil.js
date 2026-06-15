@@ -155,8 +155,8 @@ var handler = async (m, { conn, usedPrefix, participants }) => {
 }
 
 handler.help = ['profile', 'perfil', 'me']
-handler.register = true
-handler.group = true
+handler.register = false
+handler.group = false
 handler.tags = ['rg', 'rpg']
 handler.command = ['profile', 'perfil', 'me']
 export default handler
