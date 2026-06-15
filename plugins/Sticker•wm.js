@@ -48,7 +48,7 @@ handler.help = ['take <nombre>|<autor>', 'wm <nombre>|<autor>']
 handler.tags = ['sticker']
 handler.command = ['take', 'robar', 'wm']
 handler.group = false
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler
