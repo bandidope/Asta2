@@ -29,7 +29,7 @@ var handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['fake'];
 handler.tags = ['tools'];
 handler.command = ['fitnah', 'fakereply', 'fake'];
-handler.register = true;
+handler.register = false;
 handler.group = true;
 
 export default handler;
