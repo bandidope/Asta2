@@ -12,6 +12,6 @@ handler.help = ['amistad']
 handler.tags = ['fun']
 handler.command = ['amigorandom','amistad']
 handler.group = true
-handler.register = true
+handler.register = false
 
 export default handler
