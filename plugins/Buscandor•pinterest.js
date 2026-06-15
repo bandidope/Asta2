@@ -5,12 +5,12 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
   const rwait = '⏳'
   const done = '✅'
   const error = '❌'
-  const dev = 'by The Carlos 👑'
+  const dev = 'by The whois 👑'
 
   const text = args.join(' ').trim()
 
   if (!text) {
-    return conn.reply(m.chat, `${emoji} Ingresa un término de búsqueda en Pinterest.\n\nEj: *${usedPrefix + command} black clover*`, m)
+    return conn.reply(m.chat, `${emoji} Ingresa un término de búsqueda en Pinterest.\n\nEj: *${usedPrefix + command} black*`, m)
   }
 
   await m.react(rwait)
