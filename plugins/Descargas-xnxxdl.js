@@ -45,7 +45,7 @@ const handler = async (m, {conn, args, command, usedPrefix}) => {
 };
 
 handler.command = ['xnxxdl'];
-handler.register = true;
+handler.register = false;
 handler.group = false;
 handler.coin = 10;
 
