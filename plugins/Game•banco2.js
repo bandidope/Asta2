@@ -97,7 +97,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 
 handler.command = ['banco2', 'bank2']
 handler.tags = ['economy']
-handler.register = true
+handler.register = false
 handler.group = true
 
 export default handler
