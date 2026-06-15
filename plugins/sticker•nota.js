@@ -70,7 +70,7 @@ handler.help = ['n', 'nota'].map(v => v + ' <texto>')
 handler.tags = ['sticker']
 handler.command = ['n', 'nota', 'Nota']
 handler.group = false
-handler.register = true
+handler.register = false
 handler.limit = true
 
 export default handler
