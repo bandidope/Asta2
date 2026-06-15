@@ -52,7 +52,7 @@ handler.help = ['lb [página]']
 handler.tags = ['rpg']
 handler.command = ['lboard', 'top', 'lb']
 handler.group = true
-handler.register = true
+handler.register = false
 handler.fail = null
 handler.exp = 0
 
