@@ -22,7 +22,7 @@ if (!db.data.chats[m.chat].nsfw && m.isGroup) {
 };
 
 handler.command = ['xvideosdl'];
-handler.register = true;
+handler.register = false;
 handler.group = false;
 handler.coin = 10;
 
