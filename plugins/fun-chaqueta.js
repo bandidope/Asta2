@@ -22,6 +22,6 @@ await conn.sendMessage(m.chat, {text: chaqueta[i], edit: key, mentions: conn.par
 }
 handler.command = ['jalame', 'jalamela', 'chaqueteame', 'chaqueta']
 handler.group = true
-handler.register = true
+handler.register = false
 
 export default handler
