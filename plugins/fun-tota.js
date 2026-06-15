@@ -13,5 +13,5 @@ conn.reply(m.chat, `
 
 handler.command =['tota']
 handler.fail = null
-handler.register = true
+handler.register = false
 export default handler
